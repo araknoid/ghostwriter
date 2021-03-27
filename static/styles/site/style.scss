@@ -177,13 +177,13 @@ table {
     height: auto;
         min-height: 100%;
     /* This must be the same as the height of the footer */
-    margin-bottom: -265px;
+    margin-bottom: -105px;
 
     &:after {
         content: "";
         display: block;
         /* This must be the same as the height of the footer */
-        height: 265px;
+        height: 105px;
     }
 }
 
@@ -544,11 +544,10 @@ table {
 .footer {
     background: $secondary;
     color: #D3D3D3;
-    height: 265px;
-    margin-top: 95px;
+    height: 105px;
     overflow: auto;
 
-    .site-title-wrapper { margin: 80px auto 35px; }
+    .site-title-wrapper { margin: 30px auto 15px; }
 
     .site-title a:hover,
     .button-square:hover {
