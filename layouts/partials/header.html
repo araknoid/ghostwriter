@@ -51,12 +51,12 @@
                             <a class="button-square" href="{{ .Site.BaseURL }}index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
                         {{ end }}
                         {{ with .Site.Params.twitter }}
-                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="{{ . }}" rel="me" >
+                            <a class="button-square button-square-twitter button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="{{ . }}" rel="me" >
                                 <i class="fab fa-twitter" aria-hidden="true"></i>
                             </a>
                         {{ end }}
                         {{ with .Site.Params.facebook }}
-                            <a class="button-square button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="{{ . }}" rel="me">
+                            <a class="button-square button-square-facebook button-social hint--top" data-hint="Facebook" aria-label="Facebook" href="{{ . }}" rel="me">
                                 <i class="fab fa-facebook" aria-hidden="true"></i>
                             </a>
                         {{ end }}
@@ -66,12 +66,12 @@
                             </a>
                         {{ end }}
                         {{ with .Site.Params.github }}
-                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="{{ . }}" rel="me">
+                            <a class="button-square button-square-github button-social hint--top" data-hint="Github" aria-label="Github" href="{{ . }}" rel="me">
                                 <i class="fab fa-github-alt" aria-hidden="true"></i>
                             </a>
                         {{ end }}
                         {{ with .Site.Params.stackoverflow }}
-                            <a class="button-square button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="{{ . }}" rel="me">
+                            <a class="button-square button-square-stackoverflow button-social hint--top" data-hint="Stack Overflow" aria-label="Stack Overflow" href="{{ . }}" rel="me">
                                 <i class="fab fa-stack-overflow" aria-hidden="true"></i>
                             </a>
                         {{ end }}
@@ -81,7 +81,7 @@
                         </a>
                         {{ end }}
                         {{ with .Site.Params.goodreads }}
-                        <a class="button-square button-social hint--top" data-hint="Goodreads" aria-label="Goodreads" href="{{ . }}" rel="me">
+                        <a class="button-square button-square-goodreads button-social hint--top" data-hint="Goodreads" aria-label="Goodreads" href="{{ . }}" rel="me">
                             <i class="fab fa-goodreads" aria-hidden="true"></i>
                         </a>
                         {{ end }}
